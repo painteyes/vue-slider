@@ -45,9 +45,9 @@
                     </div>
                     <!-- End Arrow down -->
 
-                    <!-- <div v-for = "item, index in slides" class="single-thumb" :class='{'active': index === currentActiveSlide}'>
-                        <img :src="item.image" alt="">
-                    </div> -->
+                    <div v-for= "element, index in slides" class="single-thumb" :class='{active: index === currentActiveSlide}'>
+                        <img :src="element.image" alt="">
+                    </div> 
                 </div>
 
             </div>
