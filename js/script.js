@@ -40,8 +40,22 @@ const app = new Vue (
                 }
             ], 
         },
-        methods: {
-
+        methods: { 
+            showNextSlide: function() {
+                if (this.currentActiveSlide < this.slides.length - 1) {
+                    this.currentActiveSlide++ ;
+                } else {
+                    this.currentActiveSlide = 0;
+                }
+            },
+            showPreviousSlide: function() {
+                if (this.currentActiveSlide > 0) {
+                    this.currentActiveSlide-- ;
+                } else {
+                    this.currentActiveSlide = this.slides.length - 1;
+                }
+            },
+            
         }
     } 
      
