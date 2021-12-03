@@ -12,7 +12,7 @@ const app = new Vue (
         el: '#root',
         data: {
             currentActiveSlide: 0,
-            slides : [
+            slides: [
                 {
                     title: 'Svezia',
                     image: 'img/01.jpg' ,
