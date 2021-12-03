@@ -30,11 +30,9 @@
     position: relative;
     width: 100%;
     height: 100%;
-    display: none;
-}
-.single-image.active {
     display: block;
 }
+
 .single-image img {
     width: 100%;
     height: 100%;
